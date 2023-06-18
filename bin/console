@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "irb"
+
+require_relative "../config/application"
+
+# require_relative "../config/models"
+# DB.loggers << Logger.new($stdout)
+
+Application.finalize!
+
+IRB.start
