@@ -20,6 +20,7 @@ end
 
 Import = Dry::AutoInject(Application)
 
-module Types
-  include Dry.Types()
-end
+# If using dry types
+# module Types
+#   include Dry.Types()
+# end
