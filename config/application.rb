@@ -16,7 +16,6 @@ class Application < Dry::System::Container
     # config.autoloader.collapse("#{config.root}/**/some_path")
   end
 end
-end
 
 Import = Dry::AutoInject(Application)
 
