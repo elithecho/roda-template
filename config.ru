@@ -1,5 +1,4 @@
-# config.ru
-require_relative 'config/boot'
+require_relative "config/application"
 require 'roda'
 require 'zeitwerk'
 
