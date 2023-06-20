@@ -4,11 +4,8 @@ class App < Roda
   plugin :json, classes: [Array, Hash]#, Sequel::Model]
 
   route do |r|
-    # r.public
-    # r.assets
-
     r.root do
-      { status: APP_ENV }
+      { status: 'ok' }
     end
   end
 end

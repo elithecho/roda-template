@@ -1,3 +1,3 @@
-require_relative "config/container"
+require_relative "container"
 
 Import = Application.injector

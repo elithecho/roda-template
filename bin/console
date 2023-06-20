@@ -6,4 +6,9 @@ require_relative "../config/environment"
 
 Application.finalize!
 
+def reload!
+  Application.config.autoloader.reload
+  puts "Reloaded!"
+end
+
 IRB.start

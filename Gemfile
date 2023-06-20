@@ -14,3 +14,7 @@ gem "bcrypt"
 gem "zeitwerk"
 
 gem "dry-system"
+
+group :development, :test do
+  gem 'pry'
+end
