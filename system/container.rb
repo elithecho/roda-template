@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "config/boot"
-
 require "dry/system/container"
 require "dry/system/loader/autoloading"
 

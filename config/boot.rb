@@ -15,5 +15,3 @@ if %w[development test].include?(env)
 
   Dotenv.load(".env", ".env.#{env}")
 end
-
-# require_relative "./db"

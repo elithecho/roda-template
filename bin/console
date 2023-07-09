@@ -2,10 +2,7 @@
 
 require "irb"
 
-require_relative "../config/application"
-
-# require_relative "../config/models"
-# DB.loggers << Logger.new($stdout)
+require_relative "../config/environment"
 
 Application.finalize!
 
