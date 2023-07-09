@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "boot"
+require "config/boot"
 
 require "dry/system/container"
 require "dry/system/loader/autoloading"
@@ -16,8 +16,6 @@ class Application < Dry::System::Container
     # config.autoloader.collapse("#{config.root}/**/some_path")
   end
 end
-
-Import = Dry::AutoInject(Application)
 
 # If using dry types
 # module Types
